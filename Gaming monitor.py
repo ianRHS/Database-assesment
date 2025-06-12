@@ -27,14 +27,14 @@ menu_choice =''
 while menu_choice != 'z':
     menu_choice = input('Welcome to the gaming monitors Database!\n\n'
     'type the letter for the information you want:\n'
-    'A: monitor names and manufacturer\n'
-    'B: monitor names and price\n'
-    'C:monitor names of top 10 highest refresh rate sorted by refresh rate\n'
-    'D:monitor name of 144hz monitors\n'
+    'A: manufacturer for all monitor names\n'
+    'B: monitor names    \n'
+    'C: monitor names of top 10 highest refresh rate sorted by refresh rate\n'
+    'D: monitor name of 1440p monitors and 144hz\n'
     'Z: EXIT\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
-        
+
 
 
 
