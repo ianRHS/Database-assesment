@@ -35,7 +35,9 @@ while menu_choice != 'z':
     'F: cheapest monitor\n'
     'G: biggest screen size monitor\n'
     'H: highest refresh rate monitor\n'
-    'I: 
+    'I: ACER manufactured monitors\n
+    'J: ASUS manufactured monitors\n
+    'K: Smallest screen size monitor\n
     'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
@@ -47,10 +49,19 @@ while menu_choice != 'z':
     elif menu_choice == 'D':  
         print_query('Lowest response time monitor')
     elif menu_choice == 'E':
-        print_query()       
-               
-
-
+        print_query('most expensive monitor')
+    elif menu_choice == 'F':
+        print_query('cheapest monitor')
+    elif menu_choice == 'G':
+        print_query('biggest screen size monitor')
+    elif menu_choice == 'H':
+        print_query('highest refresh rate monitor')
+    elif menu_choice == 'I':
+        print_query('ACER manufactured monitors')
+    elif menu_choice == 'J':
+        print_query('ASUS manufactured monitors')
+    elif menu_choice == 'K':
+        print_query('Smallest screen size monitor')
 
 
 
