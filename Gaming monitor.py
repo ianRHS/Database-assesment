@@ -24,7 +24,7 @@ def print_query(view_name:str):
 
 
 menu_choice =''
-while menu_choice != 'z':
+while menu_choice != 'Z':
     menu_choice = input('Welcome to the gaming monitors Database!\n\n'
     'type the letter for the information you want:\n'
     'A: 1080p monitors with 120hz or higher\n'
@@ -35,9 +35,9 @@ while menu_choice != 'z':
     'F: cheapest monitor\n'
     'G: biggest screen size monitor\n'
     'H: highest refresh rate monitor\n'
-    'I: ACER manufactured monitors\n
-    'J: ASUS manufactured monitors\n
-    'K: Smallest screen size monitor\n
+    'I: ACER manufactured monitors\n'
+    'J: ASUS manufactured monitors\n'
+    'K: Smallest screen size monitor\n'
     'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
