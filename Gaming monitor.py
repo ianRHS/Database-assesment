@@ -57,12 +57,11 @@ def print_query(view_name:str):
     elif menu_choice == 'H':
         print_query('highest refresh rate monitor')
     elif menu_choice == 'I':
-        print_query('ACER manufactured monitors')
-    elif menu_choice == 'J':
         print_query('ASUS manufactured monitors')
+    elif menu_choice == 'J':
+        print_query('ACER manufactured monitors')
     elif menu_choice == 'K':
         print_query('Smallest screen size monitor')
-
 
 
 
