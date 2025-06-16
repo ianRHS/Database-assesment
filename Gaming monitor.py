@@ -27,13 +27,30 @@ menu_choice =''
 while menu_choice != 'z':
     menu_choice = input('Welcome to the gaming monitors Database!\n\n'
     'type the letter for the information you want:\n'
-    'A: manufacturer for all monitor names\n'
-    'B: monitor names    \n'
-    'C: monitor names of top 10 highest refresh rate sorted by refresh rate\n'
-    'D: monitor name of 1440p monitors and 144hz\n'
-    'Z: EXIT\n\nType option here: ')
+    'A: 1080p monitors with 120hz or higher\n'
+    'B: 1440p monitors with 144hz or higher\n'
+    'C: highest resolution monitor\n'
+    'D: Lowest response time monitor\n'
+    'E: most expensive monitor\n'
+    'F: cheapest monitor\n'
+    'G: biggest screen size monitor\n'
+    'H: highest refresh rate monitor\n'
+    'I: 
+    'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
+        print_query('1080p monitors with 120hz or higher')
+    elif menu_choice == 'B': 
+        print_query('1440p monitors with 144hz or higher')
+    elif menu_choice == 'C':
+        print_query('highest resolution monitor')
+    elif menu_choice == 'D':  
+        print_query('Lowest response time monitor')
+    elif menu_choice == 'E':
+        print_query()       
+               
+
+
 
 
 
