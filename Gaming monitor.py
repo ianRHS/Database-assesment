@@ -23,8 +23,8 @@ def print_query(view_name:str):
     db.close()
 
 
-menu_choice =''
-while menu_choice != 'Z':
+ menu_choice =''
+ while menu_choice != 'Z':
     menu_choice = input('Welcome to the gaming monitors Database!\n\n'
     'type the letter for the information you want:\n'
     'A: 1080p monitors with 120hz or higher\n'
